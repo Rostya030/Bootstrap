@@ -1,0 +1,22 @@
+@keyframes flow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(45deg, #555 0%, #000000 40%, #000000 60%, #555 100%);
+    
+    background-size: 400% 400%; 
+    
+    animation: flow 25s ease infinite; 
+    
+    height: 100vh;
+    margin: 0;
+}
